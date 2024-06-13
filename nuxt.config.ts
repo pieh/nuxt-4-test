@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  nitro: {
+    compatibilityDate: "2024-05-07",
+  },
   devtools: { enabled: true },
   routeRules: {
     "/demo-ssr": { ssr: true },

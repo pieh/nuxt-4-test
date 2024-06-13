@@ -13,5 +13,8 @@
     "nuxt": "npm:nuxt-nightly@^3.12.2-28638131.d195930a",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
+  },
+  "overrides": {
+    "nitropack": "npm:nitropack-nightly@latest"
   }
 }
